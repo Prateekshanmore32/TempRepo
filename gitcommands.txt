@@ -1,0 +1,46 @@
+learning git
+git --version
+pwd ----current path
+cd " "---change dir
+git init
+git clone https://github.com/udacity/course-git-blog-project
+ls
+git status
+change some code
+git status
+git diff .gitattributes
+git add  .gitattributes
+git status
+git commit -m "file changed"
+git log------old commits done
+git log -5
+git show (commit id)
+git branch
+git checkout -b prateekshaBranch----creating new branch
+git checkout master
+git branch -d prateekshaBranch-----deleting branch
+git branch (name    (new))
+git checkout new
+
+
+
+merging
+git checkout master
+git merge new
+
+
+
+
+git reset --hard HEAD^ -----removing the commit(remove the commit as well as modification)
+git reset --soft (previous commit id)----removed only the commit and not the modification
+
+
+
+git restore --staged filename
+git restore filename
+
+
+git pull
+git push
+
+
